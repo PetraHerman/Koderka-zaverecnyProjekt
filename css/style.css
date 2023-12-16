@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*-----------------------------------*/
 html {
   box-sizing: border-box;
@@ -14,20 +13,36 @@ body {
 }
 
 /*-----------------------------------*/
+.header {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
 .header__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-size: 48px;
+}
+.header__logo {
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
 }
 
 /*-----------------------------------*/
+.menu {
+  /* --------------------------------*/
+}
 .menu__checkbox {
   position: absolute;
   left: -9999px;
 }
-
 .menu__toggler {
-  cursor: pointer; /* při najetí se kurzor změní na ručičku */
+  cursor: pointer;
 }
-
 .menu__list {
   display: none;
   margin: 0;
@@ -35,28 +50,21 @@ body {
   list-style: none;
   background-color: silver;
 }
-
-.menu__item {
+.menu_item {
   border-bottom: 1px solid darkgray;
 }
-
 .menu__link {
   display: block;
   padding: 15px;
   text-decoration: none;
   color: white;
 }
-
-.menu__link:hover,
-.menu__link:focus {
+.menu__link:hover, .menu__link:focus {
   background-color: rgb(153, 152, 152);
 }
-
 .menu__checkbox:checked ~ .menu__list {
   display: block;
 }
-
-/* --------------------------------*/
 @media screen and (min-width: 800px) {
   .menu__toggler {
     display: none;
@@ -68,4 +76,40 @@ body {
     border-bottom: 0;
     border-right: 1px solid darkgrey;
   }
+}
+
+/* --------------------------------*/
+.main {
+  margin: 0 auto;
+}
+@media screen and (min-width: 800px) {
+  .main {
+    max-width: 1800px;
+    padding: 50px 15%;
+  }
+}
+
+.introduction__newly-added {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newly-added__preview {
+  border: 2px solid black;
+  border-radius: 10px;
+  flex: 1 1 auto;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.preview__photo {
+  max-width: 150px;
+  border-radius: 10px;
+}
+.preview__button {
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
