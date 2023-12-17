@@ -26,11 +26,12 @@ title: Margarita
     </table>
 </div>
 
-![margarita](/images/margarita.jpg)
+<img class="recipe__photo" src="/images/margarita.jpg" alt="Margarita">
 
 <div class="recipe__portions">
 počet porcí: 1 
 </div>
+
 
 <div class="recipe__ingredients">
     <table>

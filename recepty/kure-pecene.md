@@ -26,11 +26,12 @@ title: Pečené kuře
     </table>
 </div>
 
-![pečené kuře](/images/kure-pecene.jpg)
+<img class="recipe__photo" src="/images/kure-pecene.jpg" alt="Kuře pečené">
 
 <div class="recipe__portions">
 počet porcí: 2 
 </div>
+
 
 <div class="recipe__ingredients">
     <table>

@@ -26,7 +26,7 @@ title: Pico de gallo
     </table>
 </div>
 
-![pico de gallo](/images/pico-de-gallo.jpg)
+<img class="recipe__photo" src="/images/pico-de-gallo.jpg" alt="Pico de gallo">
 
 <div class="recipe__portions">
 počet porcí: 2 

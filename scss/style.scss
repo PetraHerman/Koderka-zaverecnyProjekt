@@ -1,4 +1,8 @@
-
+$color-primary: #090A0C;
+$color-secondary: #65A4A0;
+$color-accent-dark: #375756;
+$color-accent-light: #E0E7E7;
+$color-background: white;
 
 
 /*-----------------------------------*/
@@ -9,29 +13,24 @@ html { box-sizing: border-box; }
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	color: $color-primary;
+	background-color: $color-background;
+	margin: 0;
 	
 }
 
 /*-----------------------------------*/
 
 .header {
-	display: flex;
-	flex: 1 1 auto;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 50px;
+	
+	padding: 10px;
 
-	&__title {
-		font-family: 'Kaushan Script', cursive;
-		font-size: 48px;
-	}
 	
 	&__logo {
-		max-width: 100%;
-		width: 100px;
-		height: 100px;
-		margin-left: 30px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
 	}
 }
 
@@ -39,13 +38,21 @@ body {
 
 /*-----------------------------------*/
 .menu {
+	background-color: $color-secondary;
+	padding: 20px;
+	
+
+
 	&__checkbox {
 	position: absolute;
-	left: -9999px
+	left: -9999px;
+	
 	}
 
 	&__toggler {
 	cursor: pointer; 
+	font-weight: 500;
+	color: $color-background;
 	}
 
 	&__list {
@@ -53,23 +60,23 @@ body {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		background-color: silver;
+		background-color: $color-secondary;
 	}
 
 	&_item {
-		border-bottom: 1px solid darkgray;
+		border-bottom: 1px solid $color-primary;
 	}
 
 	&__link {
 	display: block;
 	padding: 15px;
 	text-decoration: none;
-	color:white;
+	color: $color-background;
 	}
 
 	&__link:hover,
 	&__link:focus {
-		background-color: rgb(153, 152, 152);
+		background-color: $color-accent-dark;
 	}
 
 	&__checkbox:checked ~ &__list {
@@ -98,7 +105,7 @@ body {
 /* --------------------------------*/
 .main {
 	
- 	margin: 0 auto;
+ 	margin: 0 10px auto;
 
 	@media screen and (min-width:800px) {
 		max-width: 1800px;
@@ -106,28 +113,50 @@ body {
 	}
 }
 
-.introduction__newly-added {
+.introduction {
+	&__text {
+		font-style: italic;
+		padding: 5px;
+	}
+
+	&__newly-added {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}	
+}
+
+.recipe-list {
 	display: flex;
 	flex-direction: column;
-	gap: 10px
+	gap: 10px;
+	margin-top: 20px;
 }
 
 .newly-added__preview {
-	border: 2px solid black;
+	border: 1.5px solid $color-accent-dark;
 	border-radius: 10px;
+	display: flex;
 	flex: 1 1 auto;
 	padding: 20px;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .preview {
 	&__title {
-
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-decoration: underline;
 	}
 
 	&__preparation-overview {
-		
+		font-size: 16px;
+		margin-bottom: 10px;
+		td {
+			padding-right: 20px;
+		}
 	}
 
 	&__photo {
@@ -136,11 +165,63 @@ body {
 	}
 
 	&__button {
-		border: 1px solid silver;
+		display: inline-block;
+		border: 1px solid $color-accent-dark;
 		border-radius: 10px;
 		padding: 10px;
+		text-decoration: none;
+		color: $color-primary;
+		font-size: 16px;
+		background-color: $color-accent-light;
+		align-self: center;
+		
+		
+		
 	}
 }
 
+.recipe {
+	
+
+	&__title h1 {
+		font-size: 22px;
+	}
+	&__preparation-overview {
+		font-size: 16px;
+		margin-bottom: 10px;
+		td {
+			padding-right: 20px;
+		}
+	}
+	&__photo {
+		max-width: 250px;
+		border-radius: 10px;
+		margin: 15px auto;
+		
+	}
+
+	&__portions {
+		font-size: 16px;
+	}
+
+	&__ingredients {
+		font-size: 16px;
+
+	}
+
+	&__howto {
+		font-size: 16px;
+	}
+
+}
+
+.footer {
+	display: block;
+	background-color: $color-secondary;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+	color: $color-background;
+}
 
 

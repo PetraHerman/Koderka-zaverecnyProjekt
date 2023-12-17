@@ -3,23 +3,108 @@ layout: layouts/main-layout.njk
 title: Úvod
 ---
 
-<div class="introducton__text">
+<div class="introduction">
 
-    <h3>Nevíš co uvařit? Hledáš osvědčený recept? Potřebuješ inspiraci?</h3>
-    <h2>Jsi na správném místě!</h2>
-    <p>Vyhledávej podle kategorií, nebo se inspiruj nově přidanými recepty:</p>
+    <p class="introduction__text">Vyhledávej podle kategorií, nebo se inspiruj nově přidanými recepty:</p>
 
-</div>
 
-<!-- Tato část by chtěla napsat v JS, ale zatím ji z časových důvodů nechám takhle, ať to nekomplikuju. -->
-<div class="introduction__newly-added">
-    <div class="newly-added__preview">
-        <h4 class="preview__title">Margarita</h4>
-        <div class="preview__preparation-overview">
-            <table>
+    <!-- Tato část by chtěla napsat v JS, ale zatím ji z časových důvodů nechám takhle, ať to nekomplikuju. -->
+    <div class="introduction__newly-added">
+        <div class="newly-added__preview">
+            <h4 class="preview__title">Margarita</h4>
+            <div class="preview__preparation-overview">
+                <table>
+                    <tr>
+                        <td>doba přípravy:</td>
+                        <td>10 minut</td>
+                    </tr>
+                    <tr>
+                        <td>náročnost:</td>
+                        <td>snadné</td>
+                    </tr>
+                    <tr>
+                        <td>cena za porci:</td>
+                        <td>$$</td>
+                    </tr>
+                </table>
+            </div>
+            <img class="preview__photo" src="images/margarita.jpg" alt="Margarita">
+            <a class="preview__button" href="/recepty/margarita/">Ukaž recept</a>
+        </div>
+
+        <div class="newly-added__preview">
+            <h4 class="preview__title">Pico de gallo</h4>
+            <div class="preview__preparation-overview">
+                <table>
+                    <tr>
+                        <td>doba přípravy:</td>
+                        <td>10 minut</td>
+                    </tr>
+                    <tr>
+                        <td>náročnost:</td>
+                        <td>snadné</td>
+                    </tr>
+                    <tr>
+                        <td>cena za porci:</td>
+                        <td>$$</td>
+                    </tr>
+                </table>
+            </div>
+            <img class="preview__photo" src="images/pico-de-gallo.jpg" alt="Pico de gallo">
+            <a class="preview__button" href="/recepty/pico-de-gallo/">Ukaž recept</a>
+        </div>
+
+        <div class="newly-added__preview">
+            <h4 class="preview__title">Spaghetti carbonara</h4>
+            <div class="preview__preparation-overview">
+                <table>
+                    <tr>
+                        <td>doba přípravy:</td>
+                        <td>20 minut</td>
+                    </tr>
+                    <tr>
+                        <td>náročnost:</td>
+                        <td>snadné</td>
+                    </tr>
+                    <tr>
+                        <td>cena za porci:</td>
+                        <td>$$</td>
+                    </tr>
+                </table>
+            </div>
+            <img class="preview__photo" src="images/spaghetti-carbonara.jpg" alt="Spaghetti carbonara">
+            <a class="preview__button" href="/recepty/spaghetti-carbonara/">Ukaž recept</a>
+        </div>
+
+        <div class="newly-added__preview">
+            <h4 class="preview__title">Pečené kuře</h4>
+            <div class="preview__preparation-overview">
+                <table>
+                    <tr>
+                        <td>doba přípravy:</td>
+                        <td>60 minut</td>
+                    </tr>
+                    <tr>
+                        <td>náročnost:</td>
+                        <td>snadné</td>
+                    </tr>
+                    <tr>
+                        <td>cena za porci:</td>
+                        <td>$$</td>
+                    </tr>
+                </table>
+            </div>
+            <img class="preview__photo" src="images/kure-pecene.jpg" alt="Pečené kuře">
+            <a class="preview__button" href="/recepty/kure-pecene/">Ukaž recept</a>
+        </div>
+
+        <div class="newly-added__preview">
+            <h4 class="preview__title">Pancakes</h4>
+            <div class="preview__preparation-overview">
+                <table>
                 <tr>
                     <td>doba přípravy:</td>
-                    <td>10 minut</td>
+                    <td>30 minut</td>
                 </tr>
                 <tr>
                     <td>náročnost:</td>
@@ -29,76 +114,11 @@ title: Úvod
                     <td>cena za porci:</td>
                     <td>$$</td>
                 </tr>
-            </table>
+                </table>
+            </div>
+            <img class="preview__photo" src="images/pancakes.jpg" alt="Pancakes">
+            <a class="preview__button" href="/recepty/pancakes/">Ukaž recept</a>
         </div>
-        <img class="preview__photo" src="images/margarita.jpg" alt="Margarita">
-        <a class="preview__button" href="/recepty/margarita/">Ukaž recept</a>
-    </div>
 
-    <div class="newly-added__preview">
-        <h4 class="preview__title">Pico de gallo</h4>
-        <div class="preview__preparation-overview">
-            <table>
-                <tr>
-                    <td>doba přípravy:</td>
-                    <td>10 minut</td>
-                </tr>
-                <tr>
-                    <td>náročnost:</td>
-                    <td>snadné</td>
-                </tr>
-                <tr>
-                    <td>cena za porci:</td>
-                    <td>$$</td>
-                </tr>
-            </table>
-        </div>
-        <img class="preview__photo" src="images/pico-de-gallo.jpg" alt="Pico de gallo">
-        <a class="preview__button" href="/recepty/pico-de-gallo/">Ukaž recept</a>
     </div>
-
-    <div class="newly-added__preview">
-        <h4 class="preview__title">Spaghetti carbonara</h4>
-        <div class="preview__preparation-overview">
-            <table>
-                <tr>
-                    <td>doba přípravy:</td>
-                    <td>20 minut</td>
-                </tr>
-                <tr>
-                    <td>náročnost:</td>
-                    <td>snadné</td>
-                </tr>
-                <tr>
-                    <td>cena za porci:</td>
-                    <td>$$</td>
-                </tr>
-            </table>
-        </div>
-        <img class="preview__photo" src="images/spaghetti-carbonara.jpg" alt="Spaghetti carbonara">
-        <a class="preview__button" href="/recepty/spaghetti-carbonara/">Ukaž recept</a>
-    </div>
-
-    <div class="newly-added__preview">
-        <h4 class="preview__title">Pečené kuře</h4>
-        <div class="preview__preparation-overview">
-            <table>
-                <tr>
-                    <td>doba přípravy:</td>
-                    <td>60 minut</td>
-                </tr>
-                <tr>
-                    <td>náročnost:</td>
-                    <td>snadné</td>
-                </tr>
-                <tr>
-                    <td>cena za porci:</td>
-                    <td>$$</td>
-                </tr>
-            </table>
-        </div>
-        <img class="preview__photo" src="images/kure-pecene.jpg" alt="Pečené kuře">
-        <a class="preview__button" href="/recepty/kure-pecene/">Ukaž recept</a>
-    </div>
-
 </div>

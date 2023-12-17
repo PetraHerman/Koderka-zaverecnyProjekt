@@ -3,6 +3,8 @@ layout: layouts/main-layout.njk
 title: Spaghetti carbonara
 ---
 
+<div class="recipe">
+
 <div class="recipe__title">
 
 # Spaghetti carbonara
@@ -26,11 +28,15 @@ title: Spaghetti carbonara
     </table>
 </div>
 
-![spaghetti carbonara](/images/spaghetti-carbonara.jpg)
+
+
+<img class="recipe__photo" src="/images/spaghetti-carbonara.jpg" alt="Spaghetti carbonara">
+
 
 <div class="recipe__portions">
 počet porcí: 2 
 </div>
+
 
 <div class="recipe__ingredients">
     <table>
@@ -75,5 +81,7 @@ postup:
 5. Do misky se žloutky nalej část vody ze špaget, krátce promíchej, nalej vzniklou směs na pánev. Výsledná  konzistence by měla být hladká, krémová, bez sražených žloutků.
 6. Opepři čerstvě mletým pepřem a vše promíchej.
 7. Nandej špagety na talíř a posypej zbylým parmazánem.
+
+</div>
 
 </div>
