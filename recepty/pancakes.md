@@ -3,6 +3,8 @@ layout: layouts/main-layout.njk
 title: Pancakes
 ---
 
+<div class="recipe">
+
 <div class="recipe__title">
 
 # Pancakes
@@ -87,4 +89,6 @@ postup:
 4. Za stálého míchání postupně přilévej tekutou směs do mouky s kypřicím práškem.
 5. Těsto nalij na pánev a peč na mírném ohni, dokud se na vrchní straně nevytvoří bublinky a povrch přestane být řidký. Poté obrať.
 6. Hotové horké pancakes na talíři skládej na sebe, dozdob silnějším plátkem másla a polej javorovým sirupem.
+</div>
+
 </div>

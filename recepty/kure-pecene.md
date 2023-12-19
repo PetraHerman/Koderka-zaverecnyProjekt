@@ -3,6 +3,8 @@ layout: layouts/main-layout.njk
 title: Pečené kuře
 ---
 
+<div class="recipe">
+
 <div class="recipe__title">
 
 # Pečené kuře
@@ -73,5 +75,7 @@ postup:
 2. Vzniklou směsí rovnoměrně potři kuře.
 3. Okořeněné kuře dej do airfryeru a peč 45 minut na 180 °C.
 
+
+</div>
 
 </div>

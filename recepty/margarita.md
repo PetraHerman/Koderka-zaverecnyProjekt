@@ -3,6 +3,8 @@ layout: layouts/main-layout.njk
 title: Margarita
 ---
 
+<div class="recipe">
+
 <div class="recipe__title">
 
 # Margarita
@@ -68,5 +70,7 @@ postup:
 1. Vezmi plátek limety a dokola jim přejeď okraj sklenice. Otoč sklenici dnem vzhůru a navlhčený okraj zanoř do soli tak, aby se vytvořil ozdobený okraj.
 2. Do shakeru s ledem přidej tequilu, Triple sec / Cointreau a šťávu z limety. Protřepej, aby se ingredience dobře promíchaly a ochladily.
 3. Nalej koktejl do připravené sklenice a dozdob plátkem limety.
+
+</div>
 
 </div>

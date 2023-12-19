@@ -73,7 +73,7 @@ počet porcí: 2
 
 <div class="recipe__howto">
 
-postup:
+<u>postup:</u>
 1. Dej vařit špagety dle pokynů výrobce.
 2. V misce smíchej žloutky a 2/3 parmazánu.
 3. Rozpal pánev a 5 minut před dovařením špaget na ni dej osmahnout slaninu.

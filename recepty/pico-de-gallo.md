@@ -3,6 +3,8 @@ layout: layouts/main-layout.njk
 title: Pico de gallo
 ---
 
+<div class="recipe">
+
 <div class="recipe__title">
 
 # Pico de gallo
@@ -75,5 +77,7 @@ postup:
 1. Rajčata nakrájej na kostičky, cibuli a koriandr na drobno. Z papriček odstraň semínka a také je nakrájej na drobno.
 2. V misce smíche všechny ingredience, osol a opepři dle chuti. Pokud je salsa podávaná ke slaným tortilla chipsům, je lepší ji osolit jen zlehka.
 3. Před podáváním je dobré salsu nechat 30 minut odpočinout v lednici, aby se chutě lépe spojily.
+
+</div>
 
 </div>
